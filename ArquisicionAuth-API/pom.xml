@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>ArquisicionAuth</groupId>
+        <artifactId>ArquisicionAuth</artifactId>
+        <version>1.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <artifactId>ArquisicionAuth-API</artifactId>
+    <packaging>war</packaging>
+
+    <name>ArquisicionAuth-API</name>
+
+    <properties>
+        <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    
+    <dependencies>
+        <dependency>
+            <groupId>ArquisicionAuth</groupId>
+            <artifactId>ArquisicionAuth-Back</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+    
+</project>
+
+
+
